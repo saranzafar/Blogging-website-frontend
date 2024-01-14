@@ -1,0 +1,45 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ececec;
+}
+
+.box-area {
+    width: 930px;
+}
+
+.login-para {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.login-small {
+    font-family: 'Courier New', Courier, monospace;
+    width: 17rem;
+}
+
+.sighnup-btn img {
+    width: 20px;
+}
+
+.right-box {
+    padding: 40px 30px 40px 40px;
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+@media only screen and (max-width:768px) {
+    .box-area {
+        margin: 0 10px;
+    }
+
+    left-box {
+        height: 100px;
+        overflow: hidden;
+    }
+
+    right-box {
+        padding: 20px;
+    }
+}
