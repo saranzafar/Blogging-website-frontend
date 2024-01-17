@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+:root {
+    --bs-dark-color: #1a1d20;
+    --bs-dark-primary: #1c1c1c;
+    --bs-main-color: #fff;
+    --bs-primary-color: #c6c6c6;
+    --bs-secondary-color: #29a9fd;
+    --bs-blue-color: #3498db;
+    --bs-supporting-color: #c850c0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--bs-dark-color);
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+
+p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button,
+a {
+    font-size: 1.15rem !important;
+    letter-spacing: 0.03rem;
+    word-spacing: 0.1rem;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ececec;
+}
+
+.btn {
+    border: 1px solid var(--bs-main-color);
+    color: var(--bs-main-color);
+}
+
+.btn:hover {
+    border: 1px solid var(--bs-blue-color);
+    background-color: var(--bs-blue-primary);
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: var(--bs-dark-color) !important;
+}
+
+/* ------------- container -------------  */
+/* ------------- upper part -------------  */
+.image-section{
+    box-sizing: border-box;
+    border: 2px solid red;
+    height: 30%;
+}
